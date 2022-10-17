@@ -36,5 +36,8 @@ module.exports = {
     ],
     resolve: {
         extensions: ['.js', '.jsx'],
-    }
+    },
+    devServer: {
+        watchFiles: ['src/**/*', 'public/**/*'],
+      },
 };
